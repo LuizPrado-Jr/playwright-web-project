@@ -27,6 +27,6 @@ senha: teste
 **Esssas informações são importantes para a correta execução dos testes, pois sem o cadastro o teste falha e por ser um site para testes eles limpam o cadastro com uma frequencia de tempo, então pode ser que quando**
 **executar o cadastro não esteja mais.**
 
-** Após esses passos é importante executar os testes com o comando abaixo:**
+**Após esses passos é importante executar os testes com o comando abaixo:**
 
 - **npx cucumber-js --require tests/support/*.js --require tests/step_definitions/*.js**  para garantir que irá executar utilizando os hooks criados.
